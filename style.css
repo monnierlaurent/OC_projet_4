@@ -847,6 +847,14 @@ h4 {
     font-size: 1em;
 }
 
+.bloc_nav__lien--margin {
+    margin-right: 10em;
+}
+
+.bloc__lien--style-none {
+    text-decoration: none;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
