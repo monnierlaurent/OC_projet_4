@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
@@ -229,17 +230,18 @@ th {
     padding: 0
 }
 
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
     *,
     :after,
     :before {
-        color: #000 !important;
-        text-shadow: none !important;
-        background: 0 0 !important;
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important
+        color: #000!important;
+        text-shadow: none!important;
+        background: 0 0!important;
+        -webkit-box-shadow: none!important;
+        box-shadow: none!important
     }
     a,
     a:visited {
@@ -251,8 +253,8 @@ th {
     abbr[title]:after {
         content: " (" attr(title) ")"
     }
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
         content: ""
     }
     blockquote,
@@ -268,7 +270,7 @@ th {
         page-break-inside: avoid
     }
     img {
-        max-width: 100% !important
+        max-width: 100%!important
     }
     h2,
     h3,
@@ -285,21 +287,21 @@ th {
     }
     .btn>.caret,
     .dropup>.btn>.caret {
-        border-top-color: #000 !important
+        border-top-color: #000!important
     }
     .label {
         border: 1px solid #000
     }
     .table {
-        border-collapse: collapse !important
+        border-collapse: collapse!important
     }
     .table td,
     .table th {
-        background-color: #fff !important
+        background-color: #fff!important
     }
     .table-bordered td,
     .table-bordered th {
-        border: 1px solid #ddd !important
+        border: 1px solid #ddd!important
     }
 }
 
@@ -1385,7 +1387,7 @@ th {
 
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    -webkit-tap-highlight-color: transparent
 }
 
 body {
@@ -3102,7 +3104,6 @@ input[type=search] {
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
     line-height: normal
 }
 
@@ -3120,8 +3121,8 @@ select[size] {
     height: auto
 }
 
-input[type=file]:focus,
 input[type=checkbox]:focus,
+input[type=file]:focus,
 input[type=radio]:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
@@ -3197,29 +3198,29 @@ input[type=search] {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     input[type=date].form-control,
-    input[type=time].form-control,
     input[type=datetime-local].form-control,
-    input[type=month].form-control {
+    input[type=month].form-control,
+    input[type=time].form-control {
         line-height: 34px
     }
     .input-group-sm input[type=date],
-    .input-group-sm input[type=time],
     .input-group-sm input[type=datetime-local],
     .input-group-sm input[type=month],
+    .input-group-sm input[type=time],
     input[type=date].input-sm,
-    input[type=time].input-sm,
     input[type=datetime-local].input-sm,
-    input[type=month].input-sm {
+    input[type=month].input-sm,
+    input[type=time].input-sm {
         line-height: 30px
     }
     .input-group-lg input[type=date],
-    .input-group-lg input[type=time],
     .input-group-lg input[type=datetime-local],
     .input-group-lg input[type=month],
+    .input-group-lg input[type=time],
     input[type=date].input-lg,
-    input[type=time].input-lg,
     input[type=datetime-local].input-lg,
-    input[type=month].input-lg {
+    input[type=month].input-lg,
+    input[type=time].input-lg {
         line-height: 46px
     }
 }
@@ -3250,7 +3251,6 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
     margin-left: -20px
 }
 
@@ -3705,7 +3705,6 @@ textarea.input-lg {
 .btn[disabled],
 fieldset[disabled] .btn {
     cursor: not-allowed;
-    filter: alpha(opacity=65);
     -webkit-box-shadow: none;
     box-shadow: none;
     opacity: .65
@@ -4286,7 +4285,6 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4372,8 +4370,7 @@ tbody.collapse.in {
     text-decoration: none;
     cursor: not-allowed;
     background-color: transparent;
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    background-image: none
 }
 
 .open>.dropdown-menu {
@@ -4421,8 +4418,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .caret {
     content: "";
     border-top: 0;
-    border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px dashed
 }
 
 .dropup .dropdown-menu,
@@ -5103,10 +5099,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
         box-shadow: none
     }
     .navbar-collapse.collapse {
-        display: block !important;
-        height: auto !important;
+        display: block!important;
+        height: auto!important;
         padding-bottom: 0;
-        overflow: visible !important
+        overflow: visible!important
     }
     .navbar-collapse.in {
         overflow-y: visible
@@ -5421,10 +5417,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-left {
-        float: left !important
+        float: left!important
     }
     .navbar-right {
-        float: right !important;
+        float: right!important;
         margin-right: -15px
     }
     .navbar-right~.navbar-right {
@@ -7042,7 +7038,6 @@ button.list-group-item-danger.active:hover {
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    filter: alpha(opacity=20);
     opacity: .2
 }
 
@@ -7051,7 +7046,6 @@ button.list-group-item-danger.active:hover {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -7132,12 +7126,10 @@ button.close {
 }
 
 .modal-backdrop.fade {
-    filter: alpha(opacity=0);
     opacity: 0
 }
 
 .modal-backdrop.in {
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -7227,13 +7219,11 @@ button.close {
     word-spacing: normal;
     word-wrap: normal;
     white-space: normal;
-    filter: alpha(opacity=0);
     opacity: 0;
     line-break: auto
 }
 
 .tooltip.in {
-    filter: alpha(opacity=90);
     opacity: .9
 }
 
@@ -7591,7 +7581,6 @@ button.close {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -7600,7 +7589,6 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
     background-repeat: repeat-x
 }
 
@@ -7611,7 +7599,6 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
     background-repeat: repeat-x
 }
 
@@ -7619,7 +7606,6 @@ button.close {
 .carousel-control:hover {
     color: #fff;
     text-decoration: none;
-    filter: alpha(opacity=90);
     outline: 0;
     opacity: .9
 }
@@ -7682,7 +7668,6 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
@@ -7799,19 +7784,19 @@ button.close {
 }
 
 .pull-right {
-    float: right !important
+    float: right!important
 }
 
 .pull-left {
-    float: left !important
+    float: left!important
 }
 
 .hide {
-    display: none !important
+    display: none!important
 }
 
 .show {
-    display: block !important
+    display: block!important
 }
 
 .invisible {
@@ -7827,7 +7812,7 @@ button.close {
 }
 
 .hidden {
-    display: none !important
+    display: none!important
 }
 
 .affix {
@@ -7842,7 +7827,7 @@ button.close {
 .visible-md,
 .visible-sm,
 .visible-xs {
-    display: none !important
+    display: none!important
 }
 
 .visible-lg-block,
@@ -7857,221 +7842,221 @@ button.close {
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block {
-    display: none !important
+    display: none!important
 }
 
 @media (max-width:767px) {
     .visible-xs {
-        display: block !important
+        display: block!important
     }
     table.visible-xs {
-        display: table !important
+        display: table!important
     }
     tr.visible-xs {
-        display: table-row !important
+        display: table-row!important
     }
     td.visible-xs,
     th.visible-xs {
-        display: table-cell !important
+        display: table-cell!important
     }
 }
 
 @media (max-width:767px) {
     .visible-xs-block {
-        display: block !important
+        display: block!important
     }
 }
 
 @media (max-width:767px) {
     .visible-xs-inline {
-        display: inline !important
+        display: inline!important
     }
 }
 
 @media (max-width:767px) {
     .visible-xs-inline-block {
-        display: inline-block !important
+        display: inline-block!important
     }
 }
 
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm {
-        display: block !important
+        display: block!important
     }
     table.visible-sm {
-        display: table !important
+        display: table!important
     }
     tr.visible-sm {
-        display: table-row !important
+        display: table-row!important
     }
     td.visible-sm,
     th.visible-sm {
-        display: table-cell !important
+        display: table-cell!important
     }
 }
 
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm-block {
-        display: block !important
+        display: block!important
     }
 }
 
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm-inline {
-        display: inline !important
+        display: inline!important
     }
 }
 
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm-inline-block {
-        display: inline-block !important
+        display: inline-block!important
     }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md {
-        display: block !important
+        display: block!important
     }
     table.visible-md {
-        display: table !important
+        display: table!important
     }
     tr.visible-md {
-        display: table-row !important
+        display: table-row!important
     }
     td.visible-md,
     th.visible-md {
-        display: table-cell !important
+        display: table-cell!important
     }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md-block {
-        display: block !important
+        display: block!important
     }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md-inline {
-        display: inline !important
+        display: inline!important
     }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md-inline-block {
-        display: inline-block !important
+        display: inline-block!important
     }
 }
 
 @media (min-width:1200px) {
     .visible-lg {
-        display: block !important
+        display: block!important
     }
     table.visible-lg {
-        display: table !important
+        display: table!important
     }
     tr.visible-lg {
-        display: table-row !important
+        display: table-row!important
     }
     td.visible-lg,
     th.visible-lg {
-        display: table-cell !important
+        display: table-cell!important
     }
 }
 
 @media (min-width:1200px) {
     .visible-lg-block {
-        display: block !important
+        display: block!important
     }
 }
 
 @media (min-width:1200px) {
     .visible-lg-inline {
-        display: inline !important
+        display: inline!important
     }
 }
 
 @media (min-width:1200px) {
     .visible-lg-inline-block {
-        display: inline-block !important
+        display: inline-block!important
     }
 }
 
 @media (max-width:767px) {
     .hidden-xs {
-        display: none !important
+        display: none!important
     }
 }
 
 @media (min-width:768px) and (max-width:991px) {
     .hidden-sm {
-        display: none !important
+        display: none!important
     }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
     .hidden-md {
-        display: none !important
+        display: none!important
     }
 }
 
 @media (min-width:1200px) {
     .hidden-lg {
-        display: none !important
+        display: none!important
     }
 }
 
 .visible-print {
-    display: none !important
+    display: none!important
 }
 
 @media print {
     .visible-print {
-        display: block !important
+        display: block!important
     }
     table.visible-print {
-        display: table !important
+        display: table!important
     }
     tr.visible-print {
-        display: table-row !important
+        display: table-row!important
     }
     td.visible-print,
     th.visible-print {
-        display: table-cell !important
+        display: table-cell!important
     }
 }
 
 .visible-print-block {
-    display: none !important
+    display: none!important
 }
 
 @media print {
     .visible-print-block {
-        display: block !important
+        display: block!important
     }
 }
 
 .visible-print-inline {
-    display: none !important
+    display: none!important
 }
 
 @media print {
     .visible-print-inline {
-        display: inline !important
+        display: inline!important
     }
 }
 
 .visible-print-inline-block {
-    display: none !important
+    display: none!important
 }
 
 @media print {
     .visible-print-inline-block {
-        display: inline-block !important
+        display: inline-block!important
     }
 }
 
 @media print {
     .hidden-print {
-        display: none !important
+        display: none!important
     }
 }
