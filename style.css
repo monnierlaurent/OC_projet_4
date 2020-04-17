@@ -857,10 +857,33 @@ h4 {
 
 .bloc__lien--style-none {
     text-decoration: none;
+    font-size: 1.333em;
+    color: #000000!important;
 }
 
 .gray {
     color: #212121!important;
+}
+
+.black {
+    color: #000000!important;
+    font-size: 1.3333em;
+}
+
+.footer__input--margin {
+    margin-bottom: 2em;
+}
+
+.footer__input--margin2 {
+    margin-top: 1em;
+}
+
+.footer__address--font {
+    font-size: 1.3333em;
+}
+
+.form__input--broder {
+    border: #000000 solid 1px!important;
 }
 
 
