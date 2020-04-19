@@ -891,7 +891,7 @@ h4 {
 }
 
 .footer__lien--hidden {
-    z-index: 10;
+    visibility: hidden;
 }
 
 
