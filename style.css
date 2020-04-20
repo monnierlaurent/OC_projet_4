@@ -1,3 +1,82 @@
+/*-----mes modification-----*/
+
+.bloc__liens--flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc__lien--margin {
+    margin-right: 2em;
+}
+
+.paragraphe__font--seize {
+    font-size: 1.5em;
+}
+
+.paragraphe__font--seize2 {
+    font-size: 1.5em;
+    font-style: oblique;
+}
+
+.paragraphe__font--seize3 {
+    font-size: 1em;
+}
+
+.bloc_nav__lien--margin {
+    margin-right: 10em;
+}
+
+.bloc__lien--style-none {
+    text-decoration: none;
+    font-size: 1.333em;
+    color: #000000!important;
+}
+
+.gray {
+    color: #212121!important;
+}
+
+.black {
+    color: #000000!important;
+    font-size: 1.3333em;
+}
+
+.black2 {
+    color: #000000!important;
+}
+
+.footer__input--margin {
+    margin-bottom: 2em;
+}
+
+.footer__input--margin2 {
+    margin-top: 1em;
+}
+
+.footer__address--font {
+    font-size: 1.3333em;
+}
+
+.form__input--broder {
+    border: #000000 solid 1px!important;
+}
+
+.footer__lien--hidden {
+    visibility: hidden;
+}
+
+.map--seize {
+    width: 25em;
+    height: 37.7em;
+}
+
+.map--padding {
+    padding-left: 8em;
+}
+
+
+/*-----fin de mes modification-----*/
+
 body {
     margin: 0;
     padding: 0;
@@ -827,82 +906,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-
-
-/*-----mes modification-----*/
-
-.bloc__liens--flex {
-    display: flex;
-    flex-direction: row;
-}
-
-.bloc__lien--margin {
-    margin-right: 2em;
-}
-
-.paragraphe__font--seize {
-    font-size: 1.5em;
-}
-
-.paragraphe__font--seize2 {
-    font-size: 1.5em;
-    font-style: oblique;
-}
-
-.paragraphe__font--seize3 {
-    font-size: 1em;
-}
-
-.bloc_nav__lien--margin {
-    margin-right: 10em;
-}
-
-.bloc__lien--style-none {
-    text-decoration: none;
-    font-size: 1.333em;
-    color: #000000!important;
-}
-
-.gray {
-    color: #212121!important;
-}
-
-.black {
-    color: #000000!important;
-    font-size: 1.3333em;
-}
-
-.black2 {
-    color: #000000!important;
-}
-
-.footer__input--margin {
-    margin-bottom: 2em;
-}
-
-.footer__input--margin2 {
-    margin-top: 1em;
-}
-
-.footer__address--font {
-    font-size: 1.3333em;
-}
-
-.form__input--broder {
-    border: #000000 solid 1px!important;
-}
-
-.footer__lien--hidden {
-    visibility: hidden;
-}
-
-.map--seize {
-    width: 25em;
-    height: 37.7em;
-}
-
-
-/*-----fin de mes modification-----*/
 
 @media (max-width: 1024px) {
     .bloc {
