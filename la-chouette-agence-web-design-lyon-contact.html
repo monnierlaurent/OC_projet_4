@@ -30,15 +30,15 @@
             <div class="container bloc-sm">
                 <div class="navbar row">
                     <div class=navbar-header>
-                        <a class=navbar-brand title="Rester sur l'index" href=index.html><img src=img/la-chouette-agence-a-lyon.png alt="la chouette agence web design à Lyon" class=img--seize1></a>
+                        <a class=navbar-brand title="Rester sur l'index" aria-label="aller a la page d'accueil" href=index.html><img aria-label="aller a la page d'accueil" src=img/la-chouette-agence-a-lyon.png alt="la chouette agence web design à Lyon" class=img--seize1></a>
                     </div>
                     <div class=" navbar-collapse navbar-1 special-dropdown-nav">
                         <div class="bloc__liens--flex site-navigation nav navbar-nav">
                             <div>
-                                <a class="bloc__lien--margin bloc__lien--style-none" title=accueil href=index.html>Accueil</a>
+                                <a aria-label="aller a la page accueil" class="bloc__lien--margin bloc__lien--style-none" title=accueil href=index.html>Accueil</a>
                             </div>
                             <div>
-                                <a class=bloc__lien--style-none rel=nofollow title="aller a la page contact" href=la-chouette-agence-web-design-lyon-contact.html>Contact</a>
+                                <a aria-label="aller a la page contact" class=bloc__lien--style-none rel=nofollow title="aller a la page contact" href=la-chouette-agence-web-design-lyon-contact.html>Contact</a>
                             </div>
                         </div>
                     </div>
@@ -55,64 +55,60 @@
                 </div>
             </div>
         </header>
-        <div class="bloc bgc-white l-bloc" id=bloc-7>
+        <div class="bloc bgc-white l-bloc" id=bloc-7 role="formulaire">
             <div class="container bloc-lg">
                 <div class="row bloc--flex">
                     <div class=col-sm-6>
                         <form id="form_1">
                             <div class="form-group footer__input--margin">
                                 <label class=black for=name>Nom :</label>
-                                <input id=name class="form-control black form__input--broder" required>
+                                <input aria-labelledby="Nom" id=name class="form-control black form__input--broder" required>
                             </div>
                             <div class="form-group footer__input--margin">
                                 <label class=black for=email>Adresse email :</label>
-                                <input id=email class="form-control black form__input--broder" type=email name=email required>
+                                <input aria-labelledby="Adresse email" id=email class="form-control black form__input--broder" type=email name=email required>
                             </div>
                             <div class="form-group footer__input--margin">
                                 <label class=black for=input_504>Comment nous avez-vous connu ?</label>
-                                <input id=input_504 class="form-control black form__input--broder" required>
+                                <input aria-labelledby="Comment nous avez-vous connu" id=input_504 class="form-control black form__input--broder" required>
                             </div>
                             <div class="form-group footer__input--margin">
-                                <label class=black for=message>Brief de votre projet (Ajoutez autant de détails que nécessaire) :<br></label>
+                                <label aria-labelledby="Brief de votre projet (Ajoutez autant de détails que nécessaire)" class=black for=message>Brief de votre projet (Ajoutez autant de détails que nécessaire) :<br></label>
                                 <textarea id=message class="form-control black footer__input--margin2 form__input--broder" rows=6 cols=55 required>Décrivez votre projet ici...</textarea>
                             </div>
-                            <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine footer__input--margin" type=submit title="boutton envoyer">Envoyer</button>
+                            <button aria-label="envoyer le formulaire" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine footer__input--margin" type=submit title="boutton envoyer">Envoyer</button>
                         </form>
                     </div>
-                    <div class="col-sm-6 map--padding">
+                    <div class="col-sm-6 map--padding" role="adresse de la chouette agence">
                         <address class=footer__address--font>contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br></address>
                     </div>
                 </div>
             </div>
         </div>
 
-        <a class="bloc-button btn btn-d scrollToTop" onclick='scrollToTarget("1")'><span class="fa fa-chevron-up"></span></a>
+        <a aria-label="remonter en haut de page" class="bloc-button btn btn-d scrollToTop" onclick='scrollToTarget("1")'><span class="fa fa-chevron-up"></span></a>
 
         <footer class="bgc-atomic-tangerine footer_lien--flex1" id=bloc-8>
-            <div class="">
-                <div class="">
+            <div>
+                <div>
                     <p class="white text-center">La chouette agence - Agence web basée à Lyon.</p>
                 </div>
-                <div class="footer_lien--flex2">
-                    <div class="">
-                        <div class="text-center col-sm-3">
-                            <a class="social white" title=twitter target=_blank href=https://twitter.com><span class="footer__lien--hidden">liens twitters </span><span class="fa fa-twitter icon-md white"></span></a>
-                        </div>
+                <div class=footer_lien--flex2>
+
+                    <div class="text-center col-sm-3">
+                        <a aria-label="lien twitter" class="social white" title=twitter target=_blank href=https://twitter.com><span class=footer__lien--hidden>liens twitters </span><span class="fa fa-twitter icon-md white"></span></a>
                     </div>
-                    <div class="">
-                        <div class="text-center col-sm-3">
-                            <a class="social white" title=facebook target=_blank href=https://www.facebook.com><span class="footer__lien--hidden">lien facebook</span><span class="fa fa-facebook icon-md white"></span></a>
-                        </div>
+
+                    <div class="text-center col-sm-3">
+                        <a aria-label="lien facebook" class="social white" title=facebook target=_blank href=https://www.facebook.com><span class=footer__lien--hidden>lien facebook</span><span class="fa fa-facebook icon-md white"></span></a>
                     </div>
-                    <div class="">
-                        <div class="text-center col-sm-3">
-                            <a class="social white" title=dribbble target=_blank href=https://dribbble.com><span class="footer__lien--hidden">lien dribbble</span><span class="fa fa-dribbble icon-md white"></span></a>
-                        </div>
+
+                    <div class="text-center col-sm-3">
+                        <a aria-label="lien dribbble" class="social white" title=dribbble target=_blank href=https://dribbble.com><span class=footer__lien--hidden>lien dribbble</span><span class="fa fa-dribbble icon-md white"></span></a>
                     </div>
-                    <div class="">
-                        <div class="text-center col-sm-3">
-                            <a class="social white" title=instagram target=_blank href=https://www.instagram.com><span class="footer__lien--hidden">lien instagram</span><span class="fa fa-instagram icon-md white"></span></a>
-                        </div>
+
+                    <div class="text-center col-sm-3">
+                        <a aria-label="lien instagram" class="social white" title=instagram target=_blank href=https://www.instagram.com><span class=footer__lien--hidden >lien instagram</span><span class="fa fa-instagram icon-md white"></span></a>
                     </div>
                 </div>
             </div>
